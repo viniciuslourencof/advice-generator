@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);            
+}
+
+.conteudo {    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.advice {
+    background-color:hsl(217, 19%, 24%);
+    height: 50%;
+    width: 30%;   
+    padding: 2rem;     
+    border-radius: 10px;
+}
+
+.advice h1 {
+    color: hsl(150, 100%, 66%)
+}
+
+.advice p {
+    color: hsl(193, 38%, 86%);
+}
