@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);         
+}
+
+main {    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;    
+}
+
+.advice {
+    background-color:hsl(217, 19%, 24%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+    text-align: center;    
+    width: 30%;   
+    padding: 1rem;
+}
+
+.advice h1 {
+    color: hsl(150, 100%, 66%);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-top: 3rem;
+    
+}
+
+.advice p {
+    color: hsl(193, 38%, 86%);
+    font-size: 1.2rem;
+    
+}
+
+.advice button {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 100%;
+    border: none;    
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.advice button:hover {
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%), 0 0 50px hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+
+
